@@ -1,0 +1,15 @@
+{% extends "html.html" %}
+
+{% block content %}
+<ul class="gel-index">
+	{% for gel in gels %}
+	<li class="gel">
+		<div class="box">
+			<div class="swatch" style="background:#{{gel.gelref.colour}}"></div>
+			<h2>{{gel}} - {{gel.gelref.colour_description}}</h2>
+			<p>{{gel.gelref.description}}</p>
+		</div>
+	</li>
+	{% endfor %}
+</ul>
+{% endblock content %}

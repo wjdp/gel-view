@@ -20,7 +20,7 @@
 	<select name="f" onchange="document.filter.submit();">
 		<option value="cut" {% ifequal formdata.f "cut" %} selected="selected" {% endifequal %}>Cut Gels only</option>
 		<option value="sheet" {% ifequal formdata.f "sheet" %} selected="selected" {% endifequal %}>Sheet only</option>
-		<option value="both" {% ifequal formdata.f "both" %} selected="selected" {% endifequal %}>Both</option>
+		<option value="both" {% ifequal formdata.f "both" %} selected="selected" {% endifequal %} {% ifequal formdata.f "" %} selected="selected" {% endifequal %}>Both</option>
 	</select>
 </form>
 {% endblock search %}

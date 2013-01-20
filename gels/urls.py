@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^admin', redirect_to, {'url':'admin/'}),
 
+    url(r'search', 'gel_view.views.search'),
     url(r'', 'gel_view.views.index'),
 
 )

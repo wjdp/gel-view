@@ -47,9 +47,9 @@
 		margin-bottom: 1em;
 		margin-right: 3%;
 	}
-	ul.gel-index:nth-child(2n+1) {
-		margin-right: 0;
-		clear: left;
+	ul.gel-index li:nth-child(2n+1) {
+		/*margin-right: 0;*/
+		clear: both;
 	}
 	ul.gel-index li div.box{
 		
@@ -58,7 +58,10 @@
 		border-radius: 10px;
 		overflow: hidden;
 		padding: 10px;
+	}
 
+	ul.gel-index p {
+		padding-left: 60px
 	}
 
 	div.swatch{
@@ -82,12 +85,17 @@
 		}
 	}
 
-	@media screen and (min-width: 1100px) {
+	@media screen and (min-width: 1010px) {
 		ul.gel-index li {
 			width:30%;
 		}
+		ul.gel-index li:nth-child(2n+1) {
+		margin-right:3%;
+		clear: none;
+	}
 		ul.gel-index:nth-child(3n+2) {
 		margin-right: 0;
+		clear:both;
 		}
 	}
 

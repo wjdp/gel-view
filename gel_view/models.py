@@ -10,6 +10,9 @@ class GelRef(models.Model):
     def __unicode__(self):
         return self.prefix+str(self.number)
 
+    class Meta:
+        ordering=['number']
+
 class Gel(models.Model):
     gelref=models.ForeignKey('GelRef')
     quantity_cut = models.IntegerField()
@@ -21,4 +24,3 @@ class Gel(models.Model):
 
     def __unicode__(self):
         return self.gelref.__unicode__()
-    

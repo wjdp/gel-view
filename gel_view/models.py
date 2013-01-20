@@ -18,9 +18,8 @@ class Gel(models.Model):
     quantity_cut = models.IntegerField()
     quantity_sheet= models.IntegerField()
 
-    # class Meta:
-    #     verbose_name = 'Gel'
-    #     verbose_name_plural = 'Gels'
+    class Meta:
+        ordering=['gelref__number']
 
     def __unicode__(self):
         return self.gelref.__unicode__()

@@ -4,4 +4,4 @@
 *.pot
 *.pyc
 local_settings.py
-db.sqllite3
+db.sqlite3

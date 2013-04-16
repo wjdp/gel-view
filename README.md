@@ -17,6 +17,8 @@ This project was conceived for The Nottingham New Theatre, a student run theatre
 
 The app has been designed for use on the iPhone as well as the desktop. It 'should' work on other phones, and will be tested in due course!
 
+A live implementation of this app can be found at: http://gels.newtheatre.org.uk
+
 Interfaces
 ----------
 Until a nice interface is made all modifications to the database happen through the standard django admin.

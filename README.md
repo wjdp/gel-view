@@ -3,7 +3,7 @@ gel-view
 
 A really cool way to catalogue your collection of lighting gels. The searchable catalogues is then available for viewing publicly.
 
-![Screenshot](http://github.com/fullaf/gel-view/raw/master/screenshot.png)
+![Screenshot](https://github.com/fullaf/gel-view/raw/master/screenshot.png)
 
 What's a Gel?
 -------------

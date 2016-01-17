@@ -1,3 +1,5 @@
+**This project is no longer maintained, the replacement is https://github.com/newtheatre/lx.**
+
 gel-view
 ========
 
